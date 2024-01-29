@@ -52,34 +52,34 @@ div {
     background-color: #FF0000; /* Red background */
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px solid;
-    border-left: 5px solid;
+    border-width: 2px 0 0 5px;
+    border-style: solid;
 }
 
 .blue {
     background-color: #0000FF; /* Blue background */
     text-align: left;
     margin-right: 50px;
-    border-right: 5px solid;
-    border-top: 2px solid;
-    color: #C4C4C4; /* For color contrast */
+    border-width: 2px 5px 0 0; /* Adjust this to match requirements */
+    color: #C4C4C4; /* Correct color for contrast */
+    border-style: solid;
 }
 
 .yellow {
     background-color: #FFFF00; /* Yellow background */
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px solid;
-    border-left: 5px solid;
+    border-width: 2px 0 0 5px; /* Adjust this to match requirements */
     color: #707070; /* For color contrast */
+    border-style: solid;
 }
 
 .green {
-    background-color: #00EB00; /* Green background */
+    background-color: #008500; /* Green background */
     text-align: left;
     margin-right: 50px;
-    border-right: 5px solid;
-    border-top: 2px solid;
+    border-width: 2px 5px 0 0;
+    border-style: solid;
 }
 
 /* Style for footer */
