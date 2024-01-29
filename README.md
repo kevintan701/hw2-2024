@@ -1,2 +1,2 @@
 # hw2_simple_css
-Starter code for simple css assignment
+Kevin Tan's code for simple css assignment
