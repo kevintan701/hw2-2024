@@ -52,8 +52,9 @@ div {
     background-color: #FF0000; /* Red background */
     text-align: right;
     margin-left: 50px;
-    border-width: 2px 0 0 5px;
+    border-width: 0 0 2px 5px;
     border-style: solid;
+    border-color: #FFFFFF;
 }
 
 .blue {
@@ -65,11 +66,16 @@ div {
     border-style: solid;
 }
 
+.blue h2 {
+    color: #C4C4C4; /* Correct color for contrast */
+}
+
+
 .yellow {
     background-color: #FFFF00; /* Yellow background */
     text-align: right;
     margin-left: 50px;
-    border-width: 2px 0 0 5px; /* Adjust this to match requirements */
+    border-width: 0 0 2px 5px; /* Adjust this to match requirements */
     color: #707070; /* For color contrast */
     border-style: solid;
 }
