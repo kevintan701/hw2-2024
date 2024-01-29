@@ -1,0 +1,96 @@
+/* Style for the body */
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background-color: #000000; /* Black background */
+    color: #FFFFFF; /* White font */
+    margin: 20px 20px 0 20px; /* Margin as specified */
+}
+
+/* Style for h1 heading */
+h1 {
+    font-size: 42px;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Style for h2 heading */
+h2 {
+    font-size: 30px;
+    color: #0D0D0D; /* Dark gray font */
+}
+
+/* Style for default paragraphs */
+p {
+    font-size: 24px;
+    padding: 10px 0 0 10px; /* Padding on top and left only */
+}
+
+/* Style for images */
+img {
+    width: 250px; /* Set width, no height to maintain aspect ratio */
+    display: block;
+    margin: auto; /* Center images */
+    border: 10px dashed #FFFFFF; /* White dashed border */
+}
+
+/* Style for default div elements */
+div {
+    min-height: 125px;
+    padding: 20px;
+    border: 3px solid #FFFFFF; /* Solid white border */
+}
+
+/* Style for .introduction class */
+.introduction {
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2; /* Double-spaced text */
+}
+
+/* Styles for .red, .blue, .yellow, .green classes */
+.red {
+    background-color: #FF0000; /* Red background */
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px solid;
+    border-left: 5px solid;
+}
+
+.blue {
+    background-color: #0000FF; /* Blue background */
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px solid;
+    border-top: 2px solid;
+    color: #C4C4C4; /* For color contrast */
+}
+
+.yellow {
+    background-color: #FFFF00; /* Yellow background */
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px solid;
+    border-left: 5px solid;
+    color: #707070; /* For color contrast */
+}
+
+.green {
+    background-color: #00EB00; /* Green background */
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px solid;
+    border-top: 2px solid;
+}
+
+/* Style for footer */
+footer {
+    background: linear-gradient(to right, #000000, #0000ff 25%, #0066ff 70%, #000000);
+    border: 5px solid #FFFFFF;
+}
+
+/* Style for paragraphs within the footer */
+footer p {
+    font-size: 20px;
+    text-align: right;
+    padding: 15px 15px 15px 0;
+}
